@@ -9,6 +9,8 @@ A simple simulator of activity "Dango Derbi" in Wuthering Waves
 
 ![alt text](https://img.shields.io/badge/License-MIT-yellow.svg)
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/defy0172/Wuwa-Dango-Derbi-Simulator.git/main?urlpath=%2Fdoc%2Ftree%2FDango-Derbi.ipynb)
+
 ## 项目简介 | Introduction
 
 本项目是对《鸣潮》限定活动「小团快跑」的数值模拟与可视化实现。通过 Python 开发，加入了基于蒙特卡洛算法的胜率统计功能。
@@ -31,7 +33,7 @@ Use Jupyter Widgets to support real-time selection of participating lineups and 
 
 #### 胜率统计分析 | Statistical Analysis
 
-支持上万场模拟，量化不同角色技能对胜率的影响。
+支持进行上万场模拟，比较不同角色技能对胜率的影响。
 
 Support thousands of simulations to quantify the impact of different character skills on win rates.
 
@@ -52,17 +54,18 @@ pip install matplotlib ipywidgets ipython
 
 克隆仓库 | Clone the repo:
 
-```python
-git clone https://github.com/YourUsername/Tuanzi-Flying-Chess.git
+```bash
+git clone https://github.com/defy0172/Wuwa-Dango-Derbi-Simulator.git
 ```
 
 打开 Jupyter Notebook | open your Jupyter Notebook
 
-```python
+```bash
 jupyter notebook Tuanzi_Simulator.ipynb
 ```
 
 运行所有单元格，在交互界面选择团子并点击 "▶ 观看动画" 或 "📊 统计胜率"。
+
 Run all cells, select characters in the UI, and click "Play Animation" or "Simulate Win Rate".(Note:Only the Chinese version is available for the time being.English Version will be added soon.)
 
 #### 在线使用 | Use it Online
