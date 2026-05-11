@@ -1,0 +1,10 @@
+#!/bin/bash
+# 下载并安装思源黑体
+mkdir -p ~/.local/share/fonts
+wget https://github.com/adobe-fonts/source-hans-sans/raw/release/OTF/ChineseSimplified/SourceHanSansSC-Regular.otf -O ~/.local/share/fonts/SourceHanSansSC-Regular.otf
+
+# 刷新字体缓存
+fc-cache -f -v
+
+# 清除 matplotlib 缓存防止找不到新字体
+rm -rf ~/.cache/matplotlib
